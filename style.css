@@ -32,15 +32,16 @@ body {
 
 /* NAVBAR */
 .navbar {
-       position: fixed;
+       .navbar {
+    position: fixed;
 
     top: 40px;
     right: 40px;
 
-    display: flex;
     gap: 40px;
 
     z-index: 1000;
+}
 }
 
 .logo {
@@ -183,3 +184,24 @@ a{
 
     z-index: 999;
 }
+.name-heading {
+    {
+    position: fixed;
+
+    top: 40px;
+    left: 40px;
+
+    z-index: 1000;
+}
+.descriptor-heading {
+    {
+    font-size: 1rem;
+    font-weight: 300;
+
+    color: rgba(255,255,255,0.7);
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+}
+
