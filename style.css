@@ -31,7 +31,7 @@ body {
 }
 
 /* NAVBAR */
-       .navbar {
+       .topnav{
     position: fixed;
 
     top: 40px;
@@ -193,14 +193,19 @@ a{
     z-index: 1000;
 }
 .descriptor-heading {
-    position: fixed;
-    font-size: 1rem;
+     position: fixed;
+
+    top: 105px;
+    left: 48px;
+
+    font-size: 0.9rem;
     font-weight: 300;
 
-    color: rgba(255,255,255,0.7);
+    color: rgba(255,255,255,0.75);
 
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     text-transform: uppercase;
-}
+
+    z-index: 1000;
 }
 
