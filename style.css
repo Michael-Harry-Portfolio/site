@@ -32,16 +32,15 @@ body {
 
 /* NAVBAR */
 .navbar {
-    position: fixed;
+       position: fixed;
+
     top: 40px;
-    left: 40px;
     right: 40px;
 
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    gap: 40px;
 
-    z-index: 100;
+    z-index: 1000;
 }
 
 .logo {
@@ -172,4 +171,15 @@ body {
 }
 a{
   color:BLACK;
+}
+
+.frame {
+    position: fixed;
+    inset: 20px;
+
+    border: 1px solid rgba(255,255,255,0.2);
+
+    pointer-events: none;
+
+    z-index: 999;
 }
