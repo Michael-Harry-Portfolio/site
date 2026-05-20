@@ -31,7 +31,6 @@ body {
 }
 
 /* NAVBAR */
-.navbar {
        .navbar {
     position: fixed;
 
@@ -42,7 +41,7 @@ body {
 
     z-index: 1000;
 }
-}
+
 
 .logo {
     color: white;
@@ -185,7 +184,7 @@ a{
     z-index: 999;
 }
 .name-heading {
-    {
+    
     position: fixed;
 
     top: 40px;
@@ -194,7 +193,7 @@ a{
     z-index: 1000;
 }
 .descriptor-heading {
-    {
+    position: fixed;
     font-size: 1rem;
     font-weight: 300;
 
