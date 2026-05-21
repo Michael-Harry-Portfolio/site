@@ -188,7 +188,7 @@ a{
 .name-heading {
     
     position: fixed;
-    font-size: 36px;
+    font-size: 40px;
     font-weight: bold;
 
     top: 40px;
@@ -199,8 +199,8 @@ a{
 .descriptor-heading {
      position: fixed;
 
-    top: 70px;
-    left: 30px;
+    top: 85px;
+    left: 37px;
 
     font-size: 0.9rem;
     font-weight: 300;
