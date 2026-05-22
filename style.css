@@ -1,4 +1,4 @@
- {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -186,22 +186,13 @@ a{
     z-index: 999;
 }
 .name-heading {
-    
-    position: fixed;
     font-size: 40px;
     font-weight: bold;
-
-    top: 40px;
-    left: 35px;
-
-    z-index: 1000;
+    line-height: 1.1;
+  
 }
 .descriptor-heading {
-     position: fixed;
-
-    top: 115px;
-    left: 37px;
-
+    
     font-size: 0.9rem;
     font-weight: 300;
 
@@ -209,8 +200,6 @@ a{
 
     letter-spacing: 3px;
     text-transform: uppercase;
-
-    z-index: 1000;
 }
 
 .introduction-p{
