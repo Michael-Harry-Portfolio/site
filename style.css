@@ -26,7 +26,7 @@ body {
     position: fixed;
     inset: 20px;
     border: 2px solid rgb(30, 28, 28);
-    pointer-events: none;
+    pointer-events: auto;
     z-index: 1000;
 }
 
@@ -244,7 +244,6 @@ a{
     gap: 40px;
 }
 
-/* CARD */
 .project-card {
      display: flex;
     flex-direction: column;
